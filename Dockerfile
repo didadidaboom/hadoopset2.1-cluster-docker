@@ -86,7 +86,8 @@ RUN chmod +x ~/start-hadoop.sh && \
     chmod +x ~/run-wordcount.sh && \
     chmod +x $HADOOP_HOME/sbin/start-dfs.sh && \
     chmod +x $HADOOP_HOME/sbin/start-yarn.sh && \
-    chmod +x ~/start-all.sh
+    chmod +x ~/start-all.sh && \
+    chmod +x ~/stop-all.sh
 
 # format namenode
 RUN /usr/local/hadoop/bin/hdfs namenode -format
