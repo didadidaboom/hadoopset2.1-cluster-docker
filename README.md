@@ -44,7 +44,12 @@ root@hadoop-master:~#
 ##### 5. start hadoop
 
 ```
+#run hadoop and yarn
 ./start-hadoop.sh
+#run hadoop, yarn, hbase, spark
+./start-all.sh
+#stop hadoop, yarn, hbase, spark
+./stop-all.sh
 ```
 
 ##### 6. run wordcount
